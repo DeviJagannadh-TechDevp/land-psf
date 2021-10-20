@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Home | Potti Sreeramulu Foundation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "mobile";
+}
+//-->
+</script>
+
+<style>
+body {
+  padding: 25px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: white;
+  color: black;
+}
+
+
+</style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <nav class="header-nav container flex-container">
+    <h1 class="logo"><a class="logo-link" href="#">POTTI SREERAMULU FOUNDATION</a></h1>
+    <ul class="header-menu flex-container">
+      <li><a class="header-menu-link" href="">Join Us</a></li>
+      <li><a class="header-menu-link" href="https://donate.djfoundation.in">Donate</a></li>
+
+      <li><a class="header-menu-link" href="">Hall Of Donars</a></li>
+      <li><a class="header-menu-link" href="">Contact</a></li>
+    </ul>
+    <button onclick="myfun()"class="ghost-button">Change Mode</button>
+  </nav>
+  <section class="header-content">
+    <figure class="header-img">
+      <img src="https://images.pexels.com/photos/1748652/pexels-photo-1748652.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="Man holding camera looking at fireworks"></figure>
+    <div class="header-description container">
+      <h2 class="header-title">Let's break the poverty with PSF</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit labore rem illum totam dolorem quam saepe harum reprehenderit consequatur fugit praesentium dolore delectus modi, veritatis debitis officiis enim blanditiis facere!</p>
+      <button onclick="redir()" class="type-button">Donate Now</button>
+    </div>    
+  </section>
+</header>
+<!-- partial -->
+  <script>
+function myfun() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+	
+}
+
+function redir(){
+window.location.href = "https://donate.djfoundation.in";
+
+}
+</script>
+
+</body>
+  <footer>
+<center>
+
+      <p>
+         © 2021, Potti Sreeramulu Foundation, Inc. or its affiliates
+<br>Made By : <a href="https://thedj.tech/" target="black">DJ</a>
+      </p>
+</center>
+
+   </footer>
+</html>
